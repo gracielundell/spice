@@ -4,5 +4,5 @@ $(document).ready(function(){
     console.log(value1);
   });
 
-  // if 2 === baby pic etc
+   if 2 === 
 });
