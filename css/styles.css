@@ -1,3 +1,14 @@
 .jumbotron {
   text-align: center;
 }
+
+body {
+  padding: 30px;
+  font-size: 25px;
+}
+
+img {
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+}
