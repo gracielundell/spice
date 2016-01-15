@@ -14,8 +14,10 @@
     </div>
     <img src="img/spice.jpg" alt="a picture of the Spice Girls">
     <br>
+    <form>
     <label for="sell">What is your ideal date?</label>
         <select class="form-control" id="sell1">
+          <option value="0">Select one</option>
           <option value="1">Long walks on the beach followed up with a skinny dip.</option>
           <option value="2">Going out for protein shakes with your man then spotting each other under the bench press at the gym.</option>
           <option value="3">Watching <em>The Exorcism</em> then performing a seance with a ouija board.</option>
@@ -26,6 +28,7 @@
       <br>
       <label for="sell">What's your favorite of the foods below?</label>
       <select class="form-control" id="sell2">
+          <option value="0">Select one</option>
           <option>Bubblegum Ice Cream</option>
           <option>Protein</option>
           <option>Pigs Feet</option>
@@ -36,6 +39,7 @@
       <br>
       <label for="sell">What is your favorite genre of music?</label>
       <select class="form-control" id="sell3">
+          <option value="0">Select one</option>
           <option>Pop</option>
           <option>Electronic</option>
           <option>Witch haus</option>
@@ -46,6 +50,7 @@
       <br>
       <label for="sell">How do you like your coffee?</label>
         <select class="form-control" id="sell4">
+          <option value="0">Select one</option>
           <option>Skinny Vanilla Latte</option>
           <option>Coffee with a shot of whey protein</option>
           <option>Black</option>
@@ -56,6 +61,7 @@
       <br>
       <label for="sell">Who is your celebrity crush?</label>
         <select class="form-control" id="sell5">
+          <option value="0">Select one</option>
           <option>Justin Timberlake</option>
           <option>Shaq</option>
           <option>David Blane</option>
@@ -63,23 +69,31 @@
           <option>Carrot Top</option>
         </select>
 
-        <div id="spicegirls">
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+      </form>
+
+        <div class="spicegirl">
           <div class="baby">
+            <h3>You got:</h3>
             <img src="img/baby.jpg">
           </div>
-          <div class="baby">
-            <img src="img/scary.png">
-          </div>
-          <div class="baby">
-            <img src="img/posh.jpg">
-          </div>
-          <div class="baby">
-            <img src="img/ginger.jpg">
-          </div>
-          <div class="baby">
+          <div class="sporty">
+            <h3>You got:</h3>
             <img src="img/sporty.png">
           </div>
+          <div class="scary">
+            <h3>You got:</h3>
+            <img src="img/scary.png">
+          </div>
+          <div class="posh">
+            <h3>You got:</h3>
+            <img src="img/posh.jpg">
+          </div>
+          <div class="ginger">
+            <h3>You got:</h3>
+            <img src="img/ginger.jpg">
+          </div>
         </div>
-
   </body>
 </html>

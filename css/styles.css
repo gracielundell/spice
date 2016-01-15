@@ -13,6 +13,10 @@ img {
   margin: 0 auto;
 }
 
-#spicegirls img {
+.baby, .sporty, .posh, .scary, .ginger {  
+  display: none;
+}
+
+.spicegirl img {
   width: 300px;
 }
